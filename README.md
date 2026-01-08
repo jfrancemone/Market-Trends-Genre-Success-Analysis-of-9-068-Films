@@ -1,7 +1,7 @@
 # 🎬 Market Trends & Genre Success: Analysis of 9,068 Films
 [![Publication](https://img.shields.io/badge/Publication-Poetics_(2023)-blue)](https://doi.org/10.1016/j.poetic.2023.101839)
 [![Data Size](https://img.shields.io/badge/Dataset-9%2C000%2B_Films-green)]()
-[![Tools](https://img.shields.io/badge/Tools-SPSS_%7C_R_%7C)]()
+[![Tools](https://img.shields.io/badge/Tools-SPSS_%7C_R-orange)]()
 
 ### **Project Overview**
 This repository hosts the data pipeline and statistical analysis for a large-scale study on the film industry, examining the relationship between **production budgets**, **genre clusters**, and **market success** (box office & audience reception) over a 20-year period (1997–2017).
