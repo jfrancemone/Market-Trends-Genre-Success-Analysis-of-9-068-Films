@@ -22,14 +22,14 @@ Unlike traditional analyses that treat film genres as static, this project utili
 The project combines **SPSS** for robust statistical modeling (Regression/ANOVA) and **R** for correlation network visualization.
 
 ```text
-/film-genre-analysis
+/Market-Trends-and_Genre-Success-of-9-068-Films
 │
 ├── /data
 │   ├── films_9k_clean.csv       <-- The primary dataset (converted from SAV for accessibility)
 │   ├── films_longitudinal.csv   <-- Reworked dataset for time-series analysis
 │   └── raw_source_files/        <-- Original .sav files (SPSS)
 │
-├── /analysis_sps
+├── /analysis_spss
 │   ├── 01_data_cleaning.sps     <-- Syntax for variable transformation & cleaning
 │   ├── 02_main_models.sps       <-- HLM & ANOVA models for success metrics
 │   └── 03_longitudinal.sps      <-- Time-series analysis syntax
