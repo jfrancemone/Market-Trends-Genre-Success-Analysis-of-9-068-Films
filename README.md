@@ -25,18 +25,19 @@ The project utilizes **SPSS** for statistical modeling (Regression/ANOVA) and **
 /Market-Trends-and_Genre-Success-of-9-068-Films
 │
 ├── /data
-│   ├── films_9k_clean.csv       <-- The primary dataset (converted from SAV for accessibility)
-│   ├── films_longitudinal.csv   <-- Reworked dataset for time-series analysis
-│   └── raw_source_files/        <-- Original .sav files (SPSS)
+│   ├── Main_Data.csv              <-- The primary dataset (converted from SAV for accessibility)
+│   ├── Genre_Over_Time_Data.csv   <-- Reworked dataset for time-series analysis
+│   ├── Main_Data.sav              <-- Original .sav files (SPSS)
+│   └── Genre_Over_Time_Data.sav              
 │
 ├── /analysis_spss
-│   ├── 01_data_cleaning.sps     <-- Syntax for variable transformation & cleaning
-│   ├── 02_main_models.sps       <-- HLM & ANOVA models for success metrics
-│   └── 03_longitudinal.sps      <-- Time-series analysis syntax
+│   ├── Main_Syntax.sps            <-- Syntax for main analyses
+│   └── Genre_Over_Time_Syntax.sps <-- Syntax for longitudinal analyses
 │
 ├── /visualization_r
-│   ├── genre_network.R          <-- R script generating the co-occurrence network
-│   └── output_graph.png         <-- Visualization of genre clusters
+│   ├── Genre_Network.Rmd          <-- R Markdown generating the co-occurrence network
+│   └── Genre_Network_Viz.png      <-- Visualization of genre clusters
 │
 └── /results
-    └── study_summary.pdf        <-- Key tables and statistical outputs
+    ├── Main_Results.Rmd           <-- Excel file containing main output
+    └── Main_Results.xlsx          <-- Excel file containing longitudinal output
