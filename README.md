@@ -8,7 +8,7 @@ This repository hosts the data pipeline and statistical analysis for a large-sca
 
 Unlike traditional analyses that treat film genres as static, this project utilizes **longitudinal modeling** and **correlation network analysis** to identify how genres co-occur and evolve, providing a data-driven framework for predicting content success.
 
-> **📄 Associated Publication:**
+> **📄 Publication:**
 > Francemone, C. J., Kryston, K., & Grizzard, M. (2023). Examining genre success, co-occurrence, release, and production of 9,068 films over twenty years. *Poetics, 99*, 1-13. https://doi.org/10.1016/j.poetic.2023.101794
 
 ### **Key Insights**
