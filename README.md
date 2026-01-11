@@ -25,19 +25,19 @@ The project utilizes **SPSS** for statistical modeling (Regression/ANOVA) and **
 /Market-Trends-and_Genre-Success-of-9-068-Films
 │
 ├── /data
-│   ├── Main_Data.csv              <-- The primary dataset (converted from SAV for accessibility)
-│   ├── Genre_Over_Time_Data.csv   <-- Reworked dataset for time-series analysis
-│   ├── Main_Data.sav              <-- Original .sav files (SPSS)
+│   ├── Main_Data.csv                <-- The primary dataset (converted from SAV for accessibility)
+│   ├── Genre_Over_Time_Data.csv     <-- Reworked dataset for time-series analysis
+│   ├── Main_Data.sav                <-- Original .sav files (SPSS)
 │   └── Genre_Over_Time_Data.sav              
 │
 ├── /analysis_spss
-│   ├── Main_Syntax.sps            <-- Syntax for main analyses
-│   └── Genre_Over_Time_Syntax.sps <-- Syntax for longitudinal analyses
+│   ├── Main_Syntax.sps              <-- Syntax for main analyses
+│   └── Genre_Over_Time_Syntax.sps   <-- Syntax for longitudinal analyses
 │
 ├── /visualization_r
-│   ├── Genre_Network.Rmd          <-- R Markdown generating the co-occurrence network
-│   └── Genre_Network_Viz.png      <-- Visualization of genre clusters
+│   ├── Genre_Network.Rmd            <-- R Markdown generating the co-occurrence network
+│   └── Genre_Network_Viz.png        <-- Visualization of genre clusters
 │
 └── /results
-    ├── Main_Results.Rmd           <-- Excel file containing main output
-    └── Main_Results.xlsx          <-- Excel file containing longitudinal output
+    ├── Main_Results.csv             <-- CSV file containing main output
+    └── Genre_Over_Time_Results.csv  <-- CSV file containing longitudinal output
