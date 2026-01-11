@@ -6,7 +6,7 @@
 ### **Project Overview**
 This repository hosts the data pipeline and statistical analysis for a large-scale study on the film industry, examining the relationship between **production budgets**, **genre clusters**, and **market success** (box office & audience reception) over a 20-year period (1997–2017).
 
-Unlike traditional analyses that treat film genres as static, this project utilizes **longitudinal modeling** and **correlation network analysis** to identify how genres co-occur and evolve, providing a data-driven framework for predicting content success.
+This project utilizes **longitudinal modeling** and **correlation network analysis** to identify how genres co-occur and evolve, providing a data-driven framework for predicting content success.
 
 > **📄 Publication:**
 > Francemone, C. J., Kryston, K., & Grizzard, M. (2023). Examining genre success, co-occurrence, release, and production of 9,068 films over twenty years. *Poetics, 99*, 1-13. https://doi.org/10.1016/j.poetic.2023.101794
@@ -19,7 +19,7 @@ Unlike traditional analyses that treat film genres as static, this project utili
 ---
 
 ### **Repository Structure**
-The project combines **SPSS** for robust statistical modeling (Regression/ANOVA) and **R** for correlation network visualization.
+The project utilizes **SPSS** for statistical modeling (Regression/ANOVA) and **R** for correlation network visualization.
 
 ```text
 /Market-Trends-and_Genre-Success-of-9-068-Films
