@@ -1,0 +1,57 @@
+---
+title: "Genre Network"
+output: pdf_document
+date: "2023-02-15"
+---
+
+```{r base network}
+
+#Load Packages
+library(haven)
+library(tidyverse)
+library(igraph)
+library(tidygraph)
+library(ggraph)
+library(corrr)
+library(viridis)
+
+#Load Data
+Data <- read_sav("Main Data.sav")
+
+#Create Genre Data and Drop Film Noir
+my_data <- Data[, c(54:63, 65:76)]
+
+#Drop genre_inclu_ Phrase
+colnames(my_data) <- gsub("genre_inclu_", "", colnames(my_data))
+
+#Create Correlation Matrix
+mat <- cor(my_data)
+
+#Remove Values Under .15 due to small effect size
+mat[mat<.10] <-0
+
+#Create Network
+network <- graph_from_adjacency_matrix(mat, weighted = T, mode = "undirected", diag = F)
+plot(network)
+
+#Make Pretty
+par(bg="white")
+cfg <- cluster_fast_greedy(network)
+node.size<-setNames(c(.137,.108,.036,.083,.337,.141,.157,.575,.069,.073,.052,.069,.058,.016,.077,.222,.065,.002,.034,.196,.038,.009), c(mat[,1]))
+V(network)$color <- membership(cfg)
+network$palette <- c("#E69F00", "#F0E442", "#009E73", "#56B4E9", "#0072B2", "#D55E00")
+set.seed(750)
+plot(cfg,
+     network,
+     vertex.size=node.size*50, 
+     vertex.label.color="black",
+     edge.width=E(network)$weight*10,
+     vertex.label.dist=c(1.5,1.25,2,2.5,2.75,1.5,1.25,3.25,1.25,1,1.5,.75,1.75,2,2,2.75,1,1.75,1.5,2.25,1,2.25),
+     vertex.label.degree=c(-.75, -2, .2, 0.05, -.5, -.75, -1.5, -.75, -2.5, 1.5, -2.5, 1.5, -.25, 0, pi, 
+                           -.4, 1.5, -.5, .25, 0, 2.5, -.25),
+     vertex.label.family="Calibri", 
+     edge.color = "darkslategray4", 
+     main="Correlation Clustering of Movie Genres")
+
+legend("topleft", legend=c("Verisimilitude","Classic Genres","Family Fare","Sensation Seeking"), fill=c("#E69F00", "#F0E442", "#009E73", "#56B4E9"), title = "Cluster Categorization")
+```
