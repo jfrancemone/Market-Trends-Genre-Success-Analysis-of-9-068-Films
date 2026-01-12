@@ -12,7 +12,7 @@ This project utilizes **longitudinal modeling** and **correlation network analys
 > **📄 Publication:**
 > Francemone, C. J., Kryston, K., & Grizzard, M. (2023). Examining genre success, co-occurrence, release, and production of 9,068 films over twenty years. *Poetics, 99*, 1-13.
 >
-> 👉 [**Read the Full Paper (PDF)**](Francemone_Genre_Success_Poetics_2023.pdf)
+> [**Read the Full Paper (PDF)**](Francemone_Genre_Success_Poetics_2023.pdf)
 
 ### **Key Insights**
 * **The Popcorn vs. Prestige Split:** Quantitative evidence that "Action" drives commercial popularity while "Drama" drives critical acclaim, with little overlap.
