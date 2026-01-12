@@ -20,6 +20,7 @@ This project utilizes **longitudinal modeling** and **correlation network analys
 * **Genre Clusters:** Network analysis revealed 4 distinct production clusters (e.g., *Adventure/Animation/Family* tend to co-occur heavily), suggesting predictive bundles for studio greenlighting.
 
 ![Topic Modeling Visualization](visualization/Genre_Network_Viz.png)
+
 ---
 ### **Methodology**
 
