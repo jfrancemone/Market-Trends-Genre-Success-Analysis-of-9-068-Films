@@ -21,6 +21,15 @@ This project utilizes **longitudinal modeling** and **correlation network analys
 
 ![Topic Modeling Visualization](visualization/Genre_Network_Viz.png)
 ---
+### **Methodology**
+
+* **Data Source:** Aggregated dataset of 9,068 films (1997–2017) sourced from OMDb and IMDb.
+* **Analysis Strategy:**
+    * **Longitudinal Regression:** To track genre popularity and production shifts over a 20-year window.
+    * **Correlation Network Analysis:** To map the co-occurrence of genres (e.g., how often Sci-Fi appears with Action).
+* **Tools:**
+    * **SPSS:** Used for descriptive statistics, ANOVA, and regression modeling.
+    * **R (igraph):** Used to generate the network visualization of genre clusters.
 
 ### **Repository Structure**
 The project utilizes **SPSS** for statistical modeling and **R** for correlation network visualization.
