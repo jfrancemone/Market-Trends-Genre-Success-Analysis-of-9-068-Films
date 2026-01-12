@@ -26,7 +26,7 @@ Studios are not just releasing films; they are timing them across the calendar y
 * **The Finding:** Release dates are highly segmented. "Sensation Seeking" genres (Action, Sci-Fi) are significantly more likely to release in **Summer** (capturing leisure time), while "Prestige" genres (Drama, Biography) cluster in **Fall/Winter** (capturing award voters).
 * **Strategic Insight:** This confirms that distributors optimize release schedules to align with the availability of the audience, where they prioritize entertainment value when users have time off (Summer) and artistic merit when the industry shifts focus to awards (Winter).
 
-#### **3. Mapping Audience Psychographics (Cluster Analysis)**
+#### **3. Mapping Genre Co-occurence (Cluster Analysis)**
 Using correlation clustering, I identified that the film market isn't 22 separate genres, but rather it is organized into four distinct ecosystems.
 * **The Finding:** The network analysis revealed four stable clusters: **Verisimilitude** (Bio/Doc/History), **Sensation Seeking** (Action/Horror/Sci-Fi), **Family Fare** (Animation/Fantasy), and **Classic** (Drama/Romance).
 * **Strategic Insight:** **Predictive Cross-Pollination.** These clusters reveal the underlying psychological drivers of the audience. For example, the "Family Fare" cluster frequently integrates elements from other popular genres (like Action), suggesting that the most successful family IP is actually a "hybrid" product designed to capture multiple demographic segments simultaneously.
