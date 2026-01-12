@@ -59,6 +59,7 @@ The project utilizes **SPSS** for statistical modeling and **R** for correlation
 │
 └── Francemone_Genre_Success_2023.pdf          <-- Full published manuscript
 ```
+
 ---
 
 ### **My Role**
