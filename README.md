@@ -10,7 +10,7 @@ This project contains a statistical analysis for a large-scale study on the film
 This project utilizes **longitudinal modeling** and **correlation network analysis** to identify how genres co-occur and evolve, providing a data-driven framework for predicting content success.
 
 > **📄 Publication:**
-> Francemone, C. J., Kryston, K., & Grizzard, M. (2023). Examining genre success, co-occurrence, release, and production of 9,068 films over twenty years. *Poetics, 99*, 1-13. https://doi.org/10.1016/j.poetic.2023.101794
+> Francemone, C. J., Kryston, K., & Grizzard, M. (2023). Examining genre success, co-occurrence, release, and production of 9,068 films over twenty years. *Poetics, 99*, 1-13.
 >
 > 👉 [**Read the Full Paper (PDF)**](Francemone_Genre_Success_Poetics_2023.pdf)
 
