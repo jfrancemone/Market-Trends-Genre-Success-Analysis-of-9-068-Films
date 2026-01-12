@@ -10,6 +10,7 @@ This project utilizes **longitudinal modeling** and **correlation network analys
 
 > **📄 Publication:**
 > Francemone, C. J., Kryston, K., & Grizzard, M. (2023). Examining genre success, co-occurrence, release, and production of 9,068 films over twenty years. *Poetics, 99*, 1-13. https://doi.org/10.1016/j.poetic.2023.101794
+
 [**📄 Read the Full Paper (PDF)**](Francemone_Genre_Success_Poetics_2023.pdf)
 
 ### **Key Insights**
