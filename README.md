@@ -4,7 +4,6 @@
 [![Tools](https://img.shields.io/badge/Tools-SPSS_%7C_R-orange)]()
 
 ### **Project Overview**
-[**📄 Read the Full Paper (PDF)**](Francemone_Genre_Success_Poetics_2023.pdf)
 
 This project contains a statistical analysis for a large-scale study on the film industry, examining the relationship between **production budgets**, **genre clusters**, and **market success** (box office & audience reception) over a 20-year period (1997–2017).
 
@@ -12,6 +11,8 @@ This project utilizes **longitudinal modeling** and **correlation network analys
 
 > **📄 Publication:**
 > Francemone, C. J., Kryston, K., & Grizzard, M. (2023). Examining genre success, co-occurrence, release, and production of 9,068 films over twenty years. *Poetics, 99*, 1-13. https://doi.org/10.1016/j.poetic.2023.101794
+>
+> [**📄 Read the Full Paper (PDF)**](Francemone_Genre_Success_Poetics_2023.pdf)
 
 ### **Key Insights**
 * **The Popcorn vs. Prestige Split:** Quantitative evidence that "Action" drives commercial popularity while "Drama" drives critical acclaim, with little overlap.
