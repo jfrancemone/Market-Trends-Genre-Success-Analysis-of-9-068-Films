@@ -19,7 +19,7 @@ This project utilizes **longitudinal modeling** and **correlation network analys
 * **Seasonality:** Identified robust release windows where specific genres consistently outperform others (e.g., Sci-Fi in Summer vs. Documentary in Spring).
 * **Genre Clusters:** Network analysis revealed 4 distinct production clusters (e.g., *Adventure/Animation/Family* tend to co-occur heavily), suggesting predictive bundles for studio greenlighting.
 
-![Topic Modeling Visualization](visualization_r/Genre_Network_Viz.png)
+![Topic Modeling Visualization](visualization/Genre_Network_Viz.png)
 ---
 
 ### **Repository Structure**
