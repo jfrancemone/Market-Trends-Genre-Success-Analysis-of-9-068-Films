@@ -23,7 +23,7 @@ This project utilizes **longitudinal modeling** and **correlation network analys
 ---
 
 ### **Repository Structure**
-The project utilizes **SPSS** for statistical modeling (Regression/ANOVA) and **R** for correlation network visualization.
+The project utilizes **SPSS** for statistical modeling and **R** for correlation network visualization.
 
 ```text
 /Market-Trends-and_Genre-Success-of-9-068-Films
