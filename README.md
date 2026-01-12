@@ -6,7 +6,7 @@
 ### **Project Overview**
 [**📄 Read the Full Paper (PDF)**](Francemone_Genre_Success_Poetics_2023.pdf)
 
-This repository hosts the data pipeline and statistical analysis for a large-scale study on the film industry, examining the relationship between **production budgets**, **genre clusters**, and **market success** (box office & audience reception) over a 20-year period (1997–2017).
+This project contains a statistical analysis for a large-scale study on the film industry, examining the relationship between **production budgets**, **genre clusters**, and **market success** (box office & audience reception) over a 20-year period (1997–2017).
 
 This project utilizes **longitudinal modeling** and **correlation network analysis** to identify how genres co-occur and evolve, providing a data-driven framework for predicting content success.
 
