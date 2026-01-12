@@ -16,8 +16,8 @@ This project utilizes **longitudinal modeling** and **correlation network analys
 
 ### **Key Insights**
 * **The Popcorn vs. Prestige Split:** Quantitative evidence that "Action" drives commercial popularity while "Drama" drives critical acclaim, with little overlap.
-* **Genre Clusters:** Network analysis revealed 4 distinct production clusters (e.g., *Adventure/Animation/Family* tend to co-occur heavily), suggesting predictive bundles for studio greenlighting.
 * **Seasonality:** Identified robust release windows where specific genres consistently outperform others (e.g., Sci-Fi in Summer vs. Documentary in Spring).
+* **Genre Clusters:** Network analysis revealed 4 distinct production clusters (e.g., *Adventure/Animation/Family* tend to co-occur heavily), suggesting predictive bundles for studio greenlighting.
 
 ![Topic Modeling Visualization](visualization_r/Genre_Network_Viz.png)
 ---
