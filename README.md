@@ -34,11 +34,11 @@ The project utilizes **SPSS** for statistical modeling and **R** for correlation
 │   ├── Main_Data.sav                          <-- Original .sav files (SPSS)
 │   └── Genre_Over_Time_Data.sav              
 │
-├── /analysis_spss
+├── /analysis
 │   ├── Main_Syntax.sps                        <-- Syntax for main analyses
 │   └── Genre_Over_Time_Syntax.sps             <-- Syntax for longitudinal analyses
 │
-├── /visualization_r
+├── /visualization
 │   ├── Genre_Network.Rmd                      <-- R Markdown generating the co-occurrence network
 │   └── Genre_Network_Viz.png                  <-- Visualization of genre clusters
 │
