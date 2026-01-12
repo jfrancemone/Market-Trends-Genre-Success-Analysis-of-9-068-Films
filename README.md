@@ -29,8 +29,9 @@ This project utilizes **longitudinal modeling** and **correlation network analys
     * **Correlation Network Analysis:** To map the co-occurrence of genres (e.g., how often Sci-Fi appears with Action).
 * **Tools:**
     * **SPSS:** Used for descriptive statistics, ANOVA, and regression modeling.
-    * **R (igraph):** Used to generate the network visualization of genre clusters.
+    * **R:** Used to generate the network visualization of genre clusters.
 
+---
 ### **Repository Structure**
 The project utilizes **SPSS** for statistical modeling and **R** for correlation network visualization.
 
