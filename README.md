@@ -58,3 +58,12 @@ The project utilizes **SPSS** for statistical modeling and **R** for correlation
 │   └── Genre_Over_Time_Results.csv            <-- CSV file containing longitudinal output
 │
 └── Francemone_Genre_Success_2023.pdf          <-- Full published manuscript
+```
+---
+
+### **My Role**
+**Lead Researcher**
+* Aggregated and cleaned 20 years of film data (N=9,068) from various sources.
+* Designed the longitudinal analysis framework to track genre over time.
+* Conducted all statistical modeling (SPSS) and network visualization (R).
+* Authored the manuscript published in *Poetics*.
