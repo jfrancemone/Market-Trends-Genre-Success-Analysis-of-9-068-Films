@@ -1,6 +1,6 @@
 # 🎬 Market Trends & Genre Success: Analysis of 9,068 Films
 [![Publication](https://img.shields.io/badge/Publication-Poetics_(2023)-blue)](https://doi.org/10.1016/j.poetic.2023.101839)
-[![Data Size](https://img.shields.io/badge/Method-Longitudinal_Analysis_(N%3D9068)-green)]()
+[![Data Size](https://img.shields.io/badge/Method-Longitudinal_Analysis_(N%3D9,068)-green)]()
 [![Tools](https://img.shields.io/badge/Tools-SPSS_%7C_R-orange)]()
 
 ### **Project Overview**
