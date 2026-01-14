@@ -31,7 +31,7 @@ Using correlation clustering, I identified that the film market isn't 22 separat
 * **The Finding:** The network analysis revealed four stable clusters: **Verisimilitude** (Bio/Doc/History), **Sensation Seeking** (Action/Horror/Sci-Fi), **Family Fare** (Animation/Fantasy), and **Classic** (Drama/Romance).
 * **Strategic Insight:** **Predictive Cross-Pollination.** These clusters reveal the underlying psychological drivers of the audience. For example, the "Family Fare" cluster frequently integrates elements from other popular genres (like Action), suggesting that the most successful family IP is actually a "hybrid" product designed to capture multiple demographic segments simultaneously.
 
-![Topic Modeling Visualization](visualization/Genre_Network_Viz.png)
+<img src="visualization/Genre_Network_Viz.png" alt="Genre Network Visualization" width="75%">
 
 ---
 ### **Methodology**
