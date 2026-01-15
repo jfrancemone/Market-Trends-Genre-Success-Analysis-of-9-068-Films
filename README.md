@@ -49,7 +49,7 @@ Using correlation clustering, I identified that the film market isn't 22 separat
 The project utilizes **SPSS** for statistical modeling and **R** for correlation network visualization.
 
 ```text
-/Market-Trends-and_Genre-Success-of-9-068-Films
+/Market-Trends-and-Genre-Success-of-9-068-Films
 │
 ├── /data
 │   ├── Main_Data.csv                          <-- The primary dataset (converted from SAV for accessibility)
