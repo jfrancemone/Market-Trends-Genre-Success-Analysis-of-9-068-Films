@@ -5,15 +5,19 @@
 
 ### **Project Overview**
 
-This project is a large-scale analysis of the film industry, examining the relationship between **production budgets**, **genre clusters**, and **market success** (box office & audience reception) over a 20-year period (1997–2017).
+What drives content success at scale? This project is a large-scale analysis of the film industry, examining the relationship between **production budgets**, **genre clusters**, and **market success** (box office & audience reception) over a 20-year period (1997–2017).
 
-This project utilizes **longitudinal modeling** and **correlation network analysis** to identify how genres co-occur and evolve, providing a data-driven framework for predicting content success.
+Using **longitudinal modeling** and **correlation network analysis** on 9,068 films, I identified how genres co-occur, evolve, and compete, providing a data-driven framework for understanding content market dynamics.
 
 > **📄 Publication:**
 > Francemone, C. J., Kryston, K., & Grizzard, M. (2023). Examining genre success, co-occurrence, release, and production of 9,068 films over twenty years. *Poetics, 99*, 1-13.
 >
 > [**Read the Full Paper (PDF)**](Francemone_Genre_Success_2023.pdf)
+
+*Note: This project uses SPSS for statistical modeling and R for network visualization. The analytical approach is tool-agnostic and transferable to Python-based workflows (e.g., pandas, networkx).*
+
 ---
+
 ### **Key Findings & Strategic Insights**
 
 #### **1. The Shift to "Event" Cinema**
@@ -21,15 +25,15 @@ The data shows a clear divergence in how studios allocate resources.
 * **The Finding:** Production budgets are heavily skewed toward "Sensation Seeking" genres like Action and Adventure. Conversely, traditional "Classic" genres like Comedy and Romance show negative or non-significant correlations with budget.
 * **Strategic Insight:** Studios are moving away from mid-budget, diversified portfolios. Instead, they are consolidating resources into high-cost, high-reward films that drive mass attendance, while lower-budget genres are likely migrating to streaming or facing reduced production.
 
-#### **2. Optimizing Release Windows for Audience Mindset**
-Studios are not just releasing films; they are timing them across the calendar year.
-* **The Finding:** Release dates are highly segmented. "Sensation Seeking" genres (Action, Sci-Fi) are significantly more likely to release in **Summer** (capturing leisure time), while "Prestige" genres (Drama, Biography) cluster in **Fall/Winter** (capturing award voters).
-* **Strategic Insight:** This confirms that distributors optimize release schedules to align with the availability of the audience, where they prioritize entertainment value when users have time off (Summer) and artistic merit when the industry shifts focus to awards (Winter).
+#### **2. Release Window Optimization**
+Studios are not just releasing films; they are timing them strategically across the calendar year.
+* **The Finding:** Release dates are highly segmented. "Sensation Seeking" genres (Action, Sci-Fi) are significantly more likely to release in **Summer** (capturing leisure time), while "Prestige" genres (Drama, Biography) cluster in **Fall/Winter** (targeting award consideration).
+* **Strategic Insight:** Distributors optimize release schedules to align with audience availability and industry cycles, where they prioritize entertainment value when users have time off (Summer) and artistic merit during awards season (Winter).
 
 #### **3. Mapping Genre Co-occurence (Cluster Analysis)**
 Using correlation clustering, I identified that the film market isn't 22 separate genres, but rather it is organized into four distinct ecosystems.
 * **The Finding:** The network analysis revealed four stable clusters: **Verisimilitude** (Bio/Doc/History), **Sensation Seeking** (Action/Horror/Sci-Fi), **Family Fare** (Animation/Fantasy), and **Classic** (Drama/Romance).
-* **Strategic Insight:** **Predictive Cross-Pollination.** These clusters reveal the underlying psychological drivers of the audience. For example, the "Family Fare" cluster frequently integrates elements from other popular genres (like Action), suggesting that the most successful family IP is actually a "hybrid" product designed to capture multiple demographic segments simultaneously.
+* **Strategic Insight:** These clusters reveal underlying audience motivations. For example, the "Family Fare" cluster frequently integrates elements from other popular genres (like Action), suggesting that successful family content is often a hybrid designed to capture multiple demographic segments.
 
 <img src="visualization/Genre_Network_Viz.png" alt="Genre Network Visualization" width="75%">
 
@@ -41,12 +45,11 @@ Using correlation clustering, I identified that the film market isn't 22 separat
     * **Longitudinal Regression:** To track genre popularity and production shifts over a 20-year window.
     * **Correlation Network Analysis:** To map the co-occurrence of genres (e.g., how often Sci-Fi appears with Action).
 * **Tools:**
-    * **SPSS:** Used for descriptive statistics, ANOVA, and regression modeling.
-    * **R:** Used to generate the network visualization of genre clusters.
+    * **SPSS:** Descriptive statistics, ANOVA, and regression modeling.
+    * **R:** Network visualization of genre clusters.
 
 ---
 ### **Repository Structure**
-The project utilizes **SPSS** for statistical modeling and **R** for correlation network visualization.
 
 ```text
 /Market-Trends-and-Genre-Success-of-9-068-Films
@@ -75,8 +78,8 @@ The project utilizes **SPSS** for statistical modeling and **R** for correlation
 ---
 
 ### **My Role**
-**Lead Researcher**
-* Aggregated and cleaned 20 years of film data (N=9,068) from various sources.
-* Designed the longitudinal analysis framework to track genre over time.
+**Lead Researcher (First Author)**
+* Aggregated and cleaned 20 years of film data (N = 9,068) from multiple sources.
+* Designed the longitudinal analysis framework to track genre trends over time.
 * Conducted all statistical modeling (SPSS) and network visualization (R).
-* Authored the manuscript published in *Poetics*.
+* First author on the peer-reviewed publication in *Poetics.*
